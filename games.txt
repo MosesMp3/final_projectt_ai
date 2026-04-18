@@ -1,6 +1,64 @@
+#Fighter Solo/Multi
 125764, Guilty Gear Strive
+168728, Soul Calibur IV
+243747, Idol Showdown
+57268, Punch Planet
+136977, Gigabash
+
+#Shooter Looter
+314246, Borderlands 4
+2903, Warframe
+105049, Remnants: From the Ashes
+
+#Tactical Shooter
 242408, Counter-Strike 2 
+
+#Social Simulation
+109462, Animal Crossing
+3212, The Sims 4
+
+#Hero Shooters
 294041, Marvel Rivals
+125174, Overwatch
 
+#MOBAs
+115, League of Legends
+115078, Predecessor
 
-#you can also add notes to format genre
+#Auto Battler
+120176, Teamfight Tactics
+330884, Magic Chess: Go Go
+
+#CCGs (Collectible Card Game) + TBS (Turn Based Strategy)
+1279, Hearthstone
+54538, Magic the Gathering Arena
+
+#TBS (Turn Based Strategy) + Exploration
+7615, Might & Magic Heros VII
+164287, Erannorth Chronicles
+119171, Baldur's gate 3
+
+#Gacha
+119277, Genshin Impact - ARPG (Action Role Playing?)
+
+#MMORPG
+123, World of Warcraft
+341687, Blue Protocol
+
+#Roguelike
+331608, Knightica
+28512, Risk of Rain 2
+226601, The Last Flame
+
+#Co-op // Party-Style
+135915, Overcooked! All You Can Eat
+306148, Super Mario Party Jamboree
+19083, Drawful 2
+198560, Jackbox Party Pack 9
+
+#Survival Horror
+132181, Resident Evil 4
+111130, Apsulov: End of Gods
+
+#Survival Horror Multiplayer
+339698, Dead By Daylight add notes to format genre

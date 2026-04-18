@@ -1,5 +1,1158 @@
 [
   {
+    "id": 115,
+    "first_release_date": 1256601600,
+    "game_modes": [
+      2,
+      3
+    ],
+    "genres": [
+      12,
+      15,
+      36
+    ],
+    "keywords": [
+      1247,
+      1655,
+      2385,
+      4358,
+      4412,
+      4871,
+      4956,
+      5305,
+      5308,
+      5316,
+      5327,
+      6003,
+      7026,
+      12087,
+      12388,
+      12556,
+      14051,
+      39017,
+      49331
+    ],
+    "name": "League of Legends",
+    "platforms": [
+      6,
+      14
+    ],
+    "player_perspectives": [
+      3
+    ],
+    "similar_games": [
+      5570,
+      79392,
+      27092,
+      7313,
+      11231,
+      26841,
+      96217,
+      3222,
+      19164,
+      106987
+    ],
+    "summary": "League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements. Two teams of powerful champions, each with a unique design and playstyle, battle head-to-head across multiple battlefields and game modes. With an ever-expanding roster of champions, frequent updates and a thriving tournament scene, League of Legends offers endless replayability for players of every skill level.",
+    "themes": [
+      1,
+      17
+    ],
+    "total_rating": 79.74345785776731,
+    "total_rating_count": 979
+  },
+  {
+    "id": 123,
+    "first_release_date": 1101168000,
+    "game_modes": [
+      2,
+      5
+    ],
+    "genres": [
+      12,
+      31
+    ],
+    "keywords": [
+      87,
+      96,
+      147,
+      226,
+      236,
+      371,
+      623,
+      816,
+      992,
+      1320,
+      1333,
+      2184,
+      2472,
+      2488,
+      2806,
+      2951,
+      3918,
+      4250,
+      4287,
+      4399,
+      4469,
+      4493,
+      4776,
+      4878,
+      4884,
+      4886,
+      4887,
+      4984,
+      5019,
+      5023,
+      5308,
+      5518,
+      5671,
+      5806,
+      6069,
+      6074,
+      6189,
+      6295,
+      6471,
+      6656,
+      6864,
+      7394,
+      7596,
+      9092,
+      9384,
+      9455,
+      9510,
+      9650,
+      9841,
+      9853,
+      10348,
+      11815,
+      15134,
+      28668,
+      28669
+    ],
+    "name": "World of Warcraft",
+    "platforms": [
+      6,
+      14
+    ],
+    "player_perspectives": [
+      2
+    ],
+    "similar_games": [
+      19133,
+      1081,
+      9938,
+      7533,
+      19164,
+      14394,
+      1593,
+      386,
+      8747,
+      103303
+    ],
+    "storyline": "Intent on settling the arid region of Durotar, Thrall's new Horde expanded its ranks, inviting the undead Forsaken to join orcs, tauren, and trolls. Meanwhile, dwarves, gnomes and the ancient night elves pledged their loyalties to a reinvigorated Alliance, guided by the human kingdom of Stormwind. After Stormwind's king, Varian Wrynn, mysteriously disappeared, Highlord Bolvar Fordragon served as Regent but his service was marred by the manipulations and mind control of the black dragon Onyxia, who ruled in disguise as a human noblewoman. As heroes investigated Onyxia's manipulations, ancient foes surfaced in lands throughout the world to menace Horde and Alliance alike.",
+    "summary": "World of Warcraft is a massively multiplayer online roleplaying game (MMORPG) set in the Warcraft universe. Players assume the roles of Warcraft heroes as they explore, adventure, and quest across a vast world. Being \"Massively Multiplayer,\" World of Warcraft allows thousands of players to interact within the same world. Whether adventuring together or fighting against each other in epic battles, players will form friendships, forge alliances, and compete with enemies for power and glory.",
+    "themes": [
+      1,
+      17,
+      38,
+      39
+    ],
+    "total_rating": 85.0177558908296,
+    "total_rating_count": 872
+  },
+  {
+    "id": 1279,
+    "first_release_date": 1394496000,
+    "game_modes": [
+      1,
+      2
+    ],
+    "genres": [
+      15,
+      16,
+      35
+    ],
+    "keywords": [
+      96,
+      226,
+      415,
+      482,
+      1299,
+      1333,
+      1655,
+      2385,
+      2472,
+      2803,
+      4134,
+      4214,
+      4287,
+      4365,
+      4674,
+      4871,
+      4918,
+      5212,
+      5306,
+      5308,
+      5316,
+      5317,
+      5327,
+      5379,
+      5458,
+      5806,
+      6048,
+      6199,
+      6502,
+      6541,
+      6827,
+      7303,
+      7440,
+      7458,
+      7460,
+      24957,
+      27510
+    ],
+    "name": "Hearthstone",
+    "platforms": [
+      34,
+      6,
+      39,
+      14
+    ],
+    "player_perspectives": [
+      3,
+      5
+    ],
+    "similar_games": [
+      9278,
+      2365,
+      3022,
+      20331,
+      7313,
+      296537,
+      51279,
+      26845,
+      3222,
+      50834
+    ],
+    "summary": "Sheathe your sword, draw your deck, and get ready for Hearthstone - the fast paced strategy card game that's easy to learn and massively fun. Start a free game on Battle.net and play your cards to sling spells, summon creatures, and command the heroes of Warcraft in duels of epic strategy.\n\nWith powerful prebuilt decks, and hundreds of additional cards to win, craft or purchase - your collection never stops evolving.\n\nChallenge players of all skill levels on Battle.net or hone your skills in practice matches against some of the greatest strategists of Azeroth - Thrall, Uther, Gul'dan, and more!",
+    "themes": [
+      17
+    ],
+    "total_rating": 83.2781287678865,
+    "total_rating_count": 713
+  },
+  {
+    "id": 2903,
+    "first_release_date": 1364169600,
+    "game_modes": [
+      1,
+      2,
+      3
+    ],
+    "genres": [
+      5,
+      12,
+      31
+    ],
+    "keywords": [
+      24,
+      164,
+      182,
+      510,
+      574,
+      575,
+      1045,
+      1097,
+      1158,
+      1159,
+      1293,
+      1423,
+      1494,
+      1722,
+      1971,
+      1986,
+      2385,
+      3486,
+      4154,
+      4261,
+      4273,
+      4357,
+      4359,
+      4360,
+      4366,
+      4399,
+      4497,
+      4541,
+      4621,
+      4776,
+      4861,
+      4869,
+      4887,
+      4890,
+      4939,
+      5000,
+      5305,
+      5341,
+      5523,
+      5538,
+      5600,
+      5792,
+      6022,
+      6083,
+      6089,
+      6246,
+      6636,
+      6653,
+      6716,
+      6779,
+      6863,
+      8670,
+      11149,
+      11152,
+      12087,
+      12556,
+      39036
+    ],
+    "name": "Warframe",
+    "platforms": [
+      169,
+      48,
+      508,
+      34,
+      6,
+      39,
+      167,
+      49,
+      130
+    ],
+    "player_perspectives": [
+      2
+    ],
+    "similar_games": [
+      105049,
+      25657,
+      11156,
+      3019,
+      3225,
+      11544,
+      11646,
+      19560,
+      9498,
+      55038
+    ],
+    "storyline": "They were called Tenno. Warriors of blade and gun: masters of the Warframe armor. Those that survived the old war were left drifting among the ruins. Now they are needed once more.\n\nThe Grineer, with their vast armies, are spreading throughout the solar system. A call echoes across the stars summoning the Tenno to an ancient place. They summon you.\n\nAllow the Lotus to guide you. She has rescued you from your cryostasis chamber and given you a chance to survive. The Grineer will find you; you must be prepared. The Lotus will teach you the ways of the Warframes and the secrets to unlocking their powers.\n\nCome Tenno, you must join the war.",
+    "summary": "Warframe situates players as members of the Tenno race, newly awoken after years of cryo-sleep into a solar system at war. Reborn into a corrupt era, the Tenno are sought by the oppressive Grineer Empire for annihilation. Warframe armor is the key to overthrowing the Grineer by providing players with unique offensive and defensive powers to explore, upgrade and master during purpose-driven radical raids.",
+    "themes": [
+      1,
+      18
+    ],
+    "total_rating": 74.11431326477091,
+    "total_rating_count": 498
+  },
+  {
+    "id": 3212,
+    "first_release_date": 1409616000,
+    "game_modes": [
+      1
+    ],
+    "genres": [
+      12,
+      13
+    ],
+    "keywords": [
+      43,
+      101,
+      182,
+      994,
+      1387,
+      1403,
+      1511,
+      2084,
+      2760,
+      3430,
+      3560,
+      5789,
+      17092,
+      23856,
+      25318,
+      27054
+    ],
+    "name": "The Sims 4",
+    "platforms": [
+      48,
+      6,
+      14,
+      49
+    ],
+    "player_perspectives": [
+      1,
+      2,
+      3
+    ],
+    "similar_games": [
+      43165,
+      19164,
+      105011,
+      38967,
+      26574,
+      111187,
+      113360,
+      9243,
+      47823,
+      17548
+    ],
+    "storyline": "Choose how Sims look, act, and dress. Determine how they\u2019ll live out each day. Design and build incredible homes for every family, then decorate with your favorite furnishings and d\u00e9cor. Travel to different neighborhoods where you can meet other Sims and learn about their lives. Discover beautiful locations with distinctive environments, and go on spontaneous adventures. Manage the ups and downs of Sims\u2019 everyday lives and see what happens when you play out realistic or fantastical scenarios. Tell your stories your way while developing relationships, pursuing careers and life aspirations, and immersing yourself in an extraordinary game where the possibilities are endless.",
+    "summary": "Unleash your imagination and create a unique world of Sims that's an expression of you! Explore and customize every detail from Sims to homes, and much more with The Sims 4. Life, and Sims, are yours to control. Customize your unique Sims, design their homes & take them on wild adventures through celebdom, romance, holidays and more.",
+    "themes": [
+      1,
+      17,
+      27,
+      33,
+      44
+    ],
+    "total_rating": 70.00251504047517,
+    "total_rating_count": 652
+  },
+  {
+    "id": 7615,
+    "first_release_date": 1443484800,
+    "game_modes": [
+      1,
+      2
+    ],
+    "genres": [
+      12,
+      15,
+      16
+    ],
+    "keywords": [
+      4345
+    ],
+    "name": "Might & Magic Heroes VII",
+    "platforms": [
+      6
+    ],
+    "player_perspectives": [
+      3
+    ],
+    "similar_games": [
+      13196,
+      19404,
+      9472,
+      112191,
+      115653,
+      93694,
+      111187,
+      26845,
+      23651,
+      49414
+    ],
+    "summary": "Our story takes place during a war of succession. The Empress\u2019 murder has left a realm in flames with many hungry rivals ready to seize the throne by force. The Duke Ivan then calls together a prestigious council of six trusted advisors to restore order and end the conflict that set ablaze Ashan\u2019s lands.\n\nMight & Magic Heroes VII makes a triumphant return bringing you the essence of turn based strategy gaming. Set in a fantasy universe with RPG progression with a strong story narrative, you will embark on a journey that you will never forget!",
+    "themes": [
+      17
+    ],
+    "total_rating": 67.10170579141956,
+    "total_rating_count": 47
+  },
+  {
+    "id": 19083,
+    "first_release_date": 1466467200,
+    "game_modes": [
+      2,
+      3
+    ],
+    "genres": [
+      15,
+      26,
+      32,
+      35
+    ],
+    "keywords": [
+      10919,
+      49437
+    ],
+    "name": "Drawful 2",
+    "platforms": [
+      132,
+      170,
+      48,
+      3,
+      6,
+      14,
+      49,
+      130
+    ],
+    "player_perspectives": [
+      5
+    ],
+    "similar_games": [
+      11588,
+      65827,
+      19404,
+      28113,
+      31515,
+      119412,
+      28213,
+      18623,
+      36269,
+      23345
+    ],
+    "summary": "The team behind the hit party games Fibbage, Quiplash, and YOU DON\u2019T KNOW JACK presents Drawful 2, the game of terrible drawings and hilariously wrong answers!\n\nYou use your phone or tablet to draw weird and funny things like \u201cpitcher of nachos\u201d or \u201cdeath by trombone.\u201d The other players type in what they think the (probably terrible) drawing is and those become the multiple-choice wrong answers. Then everyone - even an audience of potentially thousands \u2013 tries to guess the REAL answer.\n\nDrawful 2 is a go-to party game that everyone can play and enjoy!",
+    "themes": [
+      27,
+      40
+    ],
+    "total_rating": 78.68236260789345,
+    "total_rating_count": 37
+  },
+  {
+    "id": 28512,
+    "first_release_date": 1597104000,
+    "game_modes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "genres": [
+      5,
+      31,
+      32
+    ],
+    "keywords": [
+      911,
+      17292,
+      26519,
+      49437
+    ],
+    "name": "Risk of Rain 2",
+    "platforms": [
+      170,
+      169,
+      48,
+      6,
+      167,
+      49,
+      130
+    ],
+    "player_perspectives": [
+      2
+    ],
+    "similar_games": [
+      105269,
+      107318,
+      55038,
+      25300,
+      25311,
+      18290,
+      103301,
+      111130,
+      26574,
+      55190
+    ],
+    "storyline": "Risk of Rain 2 follows the crew of UES: Safe Travels as they try to find UES: Contact Light and any survivors along their path. They have to try and survive the hostile wildlife and environment as difficulty increases over time, navigating Petrichor V via the teleporters strewn across the entire planet. The crew loop endlessly through many distinct environments, but end upon the moon to defeat the final boss.\n\nWith each run, you\u2019ll learn the patterns of your foes, and even the longest odds can be overcome with enough skill. A unique scaling system means both you and your foes limitlessly increase in power over the course of a game\u2013what once was a bossfight will in time become a common enemy.\n\nMyriad survivors, items, enemies, and bosses return to Risk 2, and many new ones are joining the fight. Brand new survivors like the Artificer and MUL-T debut alongside classic survivors such as the Engineer, Huntress, and\u2013of course\u2013the Commando. With over 75 items to unlock and exploit, each run will keep you cleverly strategizing your way out of sticky situations.",
+    "summary": "The classic multiplayer roguelike, Risk of Rain, returns with an extra dimension and more challenging action. No run will ever be the same with randomized stages, enemies, bosses, and items. Play solo, or team up with up to four friends to fight your way through hordes of monsters, unlock new loot, and find a way to escape the planet.",
+    "themes": [
+      1,
+      18,
+      21
+    ],
+    "total_rating": 85.37129521091924,
+    "total_rating_count": 252
+  },
+  {
+    "id": 54538,
+    "first_release_date": 1569456000,
+    "game_modes": [
+      2
+    ],
+    "genres": [
+      15,
+      16,
+      35
+    ],
+    "keywords": [
+      226,
+      482,
+      2385,
+      4142,
+      4400,
+      4674,
+      4860,
+      25688
+    ],
+    "name": "Magic: The Gathering Arena",
+    "platforms": [
+      34,
+      6,
+      39,
+      14
+    ],
+    "player_perspectives": [
+      3
+    ],
+    "similar_games": [
+      50834,
+      78165,
+      27209,
+      13196,
+      7615,
+      32510,
+      27747,
+      51279,
+      40477,
+      26845
+    ],
+    "summary": "Magic: The Gathering - Arena is a free to play digital, collectible card game by Wizards of the Coast that places the players in the shoes of a powerful magic-user that can cast spells, summon creatures, and attack opposing players.\n\nArena adds entire sets from the physical card game and features several modes/formats to play, including constructed, limited, and draft formats all of which also have their own season long rankings.",
+    "themes": [
+      17
+    ],
+    "total_rating": 78.39296600970931,
+    "total_rating_count": 75
+  },
+  {
+    "id": 57268,
+    "first_release_date": 1510099200,
+    "game_modes": [
+      1,
+      2
+    ],
+    "genres": [
+      4,
+      32
+    ],
+    "keywords": [
+      1158,
+      2493,
+      49310
+    ],
+    "name": "Punch Planet",
+    "platforms": [
+      6,
+      39,
+      14
+    ],
+    "player_perspectives": [
+      4
+    ],
+    "similar_games": [
+      89550,
+      105269,
+      25311,
+      113895,
+      107318,
+      28070,
+      76110,
+      111130,
+      11834,
+      25300
+    ],
+    "summary": "Punch Planet is a sci-fi themed indie fighting game.",
+    "themes": [
+      1,
+      18
+    ],
+    "total_rating": 70.0,
+    "total_rating_count": 0
+  },
+  {
+    "id": 105049,
+    "first_release_date": 1566259200,
+    "game_modes": [
+      1,
+      2,
+      3
+    ],
+    "genres": [
+      5,
+      12,
+      31
+    ],
+    "keywords": [
+      69,
+      537,
+      1971,
+      4823,
+      6246,
+      6648,
+      17326,
+      39200
+    ],
+    "name": "Remnant: From the Ashes",
+    "platforms": [
+      169,
+      48,
+      6,
+      167,
+      49,
+      130
+    ],
+    "player_perspectives": [
+      2
+    ],
+    "similar_games": [
+      19164,
+      55038,
+      55199,
+      47823,
+      28168,
+      106987,
+      96217,
+      17548,
+      81249,
+      19564
+    ],
+    "storyline": "The world has been thrown into chaos by an ancient evil from another dimension. Humanity is struggling to survive, but they possess the technology to open portals to other realms and alternate realities. They must travel through these portals to uncover the mystery of where the evil came from, scavenge resources to stay alive, and fight back to carve out a foothold for mankind to rebuild...",
+    "summary": "The world is in ruins. Only a remnant of mankind remains, hunted to near extinction by horrors from another world. As one of the few survivors left, you will venture into portals to fantastic realms to gather the resources and firepower needed to fight back and retake what was lost.\n\nRemnant: From the Ashes is a third-person survival-action game set in a post-apocalyptic world overrun by mythical creatures. The game provides players and up to three of their friends with a unique, customizable gameplay experience filled with intense shooting and melee combat, gear and weapon crafting, character progression and dynamically-generated levels that offer an infinite number of ways to explore and take on deadly monsters and epic bosses.",
+    "themes": [
+      1,
+      17,
+      21
+    ],
+    "total_rating": 76.38969677078326,
+    "total_rating_count": 296
+  },
+  {
+    "id": 109462,
+    "first_release_date": 1584662400,
+    "game_modes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "genres": [
+      13
+    ],
+    "keywords": [
+      43,
+      87,
+      101,
+      153,
+      182,
+      247,
+      271,
+      509,
+      518,
+      793,
+      976,
+      994,
+      1103,
+      1111,
+      1244,
+      1387,
+      1563,
+      1847,
+      2002,
+      2084,
+      2184,
+      2452,
+      3430,
+      4162,
+      5023,
+      8221,
+      8305,
+      9181,
+      23353,
+      23931,
+      24685,
+      25318,
+      26248,
+      28299,
+      29055,
+      32538,
+      38669,
+      38856,
+      39020,
+      39032,
+      39049,
+      40736,
+      41929,
+      42064,
+      48328,
+      48329,
+      49567
+    ],
+    "name": "Animal Crossing: New Horizons",
+    "platforms": [
+      130
+    ],
+    "player_perspectives": [
+      3
+    ],
+    "similar_games": [
+      43165,
+      3212,
+      2687,
+      44242,
+      17000,
+      9243,
+      105011,
+      58630,
+      37419,
+      121
+    ],
+    "storyline": "If the hustle and bustle of modern life\u2019s got you down, Tom Nook has a new business venture up his sleeve that he knows you\u2019ll adore: the Nook Inc. Deserted Island Getaway Package! Sure, you\u2019ve crossed paths with colorful characters near and far. Had a grand time as one of the city folk. May\u2019ve even turned over a new leaf and dedicated yourself to public service! But deep down, isn\u2019t there a part of you that longs for\u2026freedom? Then perhaps a long walk on the beach of a deserted island, where a rich wealth of untouched nature awaits, is just what the doctor ordered!\n\nPeaceful creativity and charm await as you roll up your sleeves and make your new life whatever you want it to be. Collect resources and craft everything from creature comforts to handy tools. Embrace your green thumb as you interact with flowers and trees in new ways. Set up a homestead where the rules of what goes indoors and out no longer apply. Make friends with new arrivals, enjoy the seasons, pole-vault across rivers as you explore, and more!",
+    "summary": "Escape to a deserted island and create your own paradise as you explore, create, and customize in Animal Crossing: New Horizons. Your island getaway has a wealth of natural resources that can be used to craft everything from tools to creature comforts. You can hunt down insects at the crack of dawn, decorate your paradise throughout the day, or enjoy sunset on the beach while fishing in the ocean. The time of day and season match real life, so each day on your island is a chance to check in and find new surprises all year round.",
+    "themes": [
+      33,
+      35,
+      38
+    ],
+    "total_rating": 86.35891949221501,
+    "total_rating_count": 490
+  },
+  {
+    "id": 111130,
+    "first_release_date": 1565222400,
+    "game_modes": [
+      1
+    ],
+    "genres": [
+      31,
+      32
+    ],
+    "name": "Apsulov: End of Gods",
+    "platforms": [
+      169,
+      48,
+      6,
+      167,
+      49,
+      130
+    ],
+    "player_perspectives": [
+      1
+    ],
+    "similar_games": [
+      25646,
+      68271,
+      55282,
+      26658,
+      13189,
+      106987,
+      27266,
+      28309,
+      113895,
+      25222
+    ],
+    "storyline": "The humans delved far beneath the earth to find the mercy of the gods. What they found was never meant to reach the surface. Not on Mi\u00f0gar\u00f0r, nor any of the nine realms of Yggdrasil. Now their discovery wreaks havoc on their world, exploiting their technology, and leaving all in misery and decay. Through all their conquests and revelations they never stopped to consider that some things are buried for a reason.\n\nIn a world of technology and mythological artifacts, chaos rules over the human realm. It is in this chaos that you find your purpose and destiny.\n\nIn this future viking horror, Alice, the game's main heroine, awake in a sanctuary of steel and concrete, built to research and exploit the worlds of Yggdrasil, and to house an artifact, buried in the earth aeons ago.",
+    "summary": "You awake in a sanctuary of steel and concrete, built to honor the Nordic Gods and to house an artifact, buried in the earth aeons ago. Unveil the secrets of the inhabitants, the artifact, and the nine realms of Yggdrasil in Apsulov: End of Gods.",
+    "themes": [
+      1,
+      19
+    ],
+    "total_rating": 77.6925760271409,
+    "total_rating_count": 27
+  },
+  {
+    "id": 115078,
+    "first_release_date": 1724112000,
+    "game_modes": [
+      1,
+      2,
+      3
+    ],
+    "genres": [
+      5,
+      15,
+      36
+    ],
+    "name": "Predecessor",
+    "platforms": [
+      169,
+      48,
+      6,
+      167
+    ],
+    "player_perspectives": [
+      2
+    ],
+    "similar_games": [
+      95340,
+      105269,
+      55038,
+      25311,
+      68286,
+      107318,
+      103301,
+      55945,
+      113362,
+      111846
+    ],
+    "summary": "Inspired by the legacy of Paragon, built with love by the community, and powered by Unreal Engine 5, Predecessor is the ultimate fusion of shooter action and MOBA strategy.\n\nWith more than 30 Heroes to choose from, each with unique and devastating abilities such as shooting through walls, turning invisible and raining down rockets from above, there's more than one way to take down your opponents! Hit your lane and push the enemy objective, taking down towers as you battle to destroy their core all while protecting your own. Predecessor plays like a traditional three lane MOBA, but with genre-redefining elements such as an immersive third-person perspective, high quality graphics and game-changing map verticality.",
+    "themes": [
+      1,
+      18
+    ],
+    "total_rating": 81.15943158158977,
+    "total_rating_count": 63
+  },
+  {
+    "id": 119171,
+    "first_release_date": 1691020800,
+    "game_modes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "genres": [
+      12,
+      15,
+      16
+    ],
+    "keywords": [
+      72,
+      98,
+      109,
+      129,
+      151,
+      182,
+      223,
+      226,
+      415,
+      422,
+      510,
+      537,
+      1069,
+      1308,
+      1313,
+      1345,
+      1884,
+      1923,
+      1931,
+      1961,
+      2228,
+      2242,
+      2377,
+      3534,
+      3586,
+      4248,
+      4272,
+      4284,
+      4399,
+      4471,
+      4823,
+      4850,
+      4855,
+      4998,
+      9005,
+      9181,
+      12083,
+      17092,
+      25527,
+      25963,
+      27054,
+      37861,
+      39024,
+      39033,
+      39034,
+      39039,
+      39041,
+      39046,
+      43103,
+      43481,
+      43861
+    ],
+    "name": "Baldur's Gate III",
+    "platforms": [
+      170,
+      169,
+      3,
+      6,
+      167,
+      14
+    ],
+    "player_perspectives": [
+      3
+    ],
+    "similar_games": [
+      14394,
+      26845,
+      19560,
+      10297,
+      1887,
+      2365,
+      103298,
+      105049,
+      9243,
+      111253
+    ],
+    "storyline": "The land of Faer\u00fbn is in turmoil. Refugees cross the wilds, fleeing the helltorn stronghold of Elturel. A vicious cult marches across the Sword Coast, uniting every race of monsters and men under the banner of a cryptic god they call the Absolute. Chaos strikes at Faer\u00fbn's foundations, and none may escape its talons. Not even you.\n\nThe grotesque nautiloid ship appears out of nowhere, blotting out the sun. Its writhing tentacles snatch you from where you stand. The mind flayers have come, imprisoning you on their ship, infecting you with their horrid parasite. You will become one of them.\n\nBy fate or fortune, you survive when the nautiloid crashes in the Sword Coast outlands. You set out for civilisation, desperate for a cure for the parasite festering in your brain, only to take centre stage in a conspiracy that runs as deep as the Nine Hells. New enemies await.\n\nAs for old foes... the shadows stir.\nAnd all roads lead to the legendary city of Baldur's Gate.",
+    "summary": "An ancient evil has returned to Baldur's Gate, intent on devouring it from the inside out. The fate of Faerun lies in your hands. Alone, you may resist. But together, you can overcome.",
+    "themes": [
+      1,
+      17
+    ],
+    "total_rating": 95.08508162486375,
+    "total_rating_count": 1421
+  },
+  {
+    "id": 119277,
+    "first_release_date": 1601251200,
+    "game_modes": [
+      1,
+      2,
+      3
+    ],
+    "genres": [
+      12,
+      31
+    ],
+    "keywords": [
+      78,
+      147,
+      226,
+      250,
+      521,
+      962,
+      1065,
+      1070,
+      1119,
+      1387,
+      2426,
+      4074,
+      4489,
+      4918,
+      24875,
+      25210,
+      34609,
+      39030,
+      39031,
+      39036,
+      39040
+    ],
+    "name": "Genshin Impact",
+    "platforms": [
+      169,
+      48,
+      34,
+      6,
+      39,
+      167
+    ],
+    "player_perspectives": [
+      2
+    ],
+    "similar_games": [
+      19164,
+      18182,
+      81249,
+      24426,
+      22387,
+      96217,
+      115653,
+      308535,
+      17548,
+      106987
+    ],
+    "storyline": "Aeons ago, the elder elemental gods gave civilization to the human race, but the world soon splintered as corruption and greed grew without check. The gods watched from their abode in Celestia and selected the worthy to sit by their side and maintain the balance that hold the world together in one piece.\n\nThe world is divided into culturally unique environs and themes. Delve into the ruins of a blasted empire that went too far in forbidden technologies, scale massive gothic towers of medieval fortresses, savor fine tea from jade pavilions, spar with kenshis in Sakura woods, and let your imaginations go wild in this definitive Universe. The epic backstory and lore will enrich your thirst for more knowledge about this magical universe\u2026",
+    "summary": "Genshin Impact is an open-world action RPG, where you embark on a journey across Teyvat to find your lost sibling and seek answers from The Seven, the gods of each element. Explore this wondrous world, join forces with a diverse range of characters, and unravel the countless mysteries that Teyvat holds...",
+    "themes": [
+      1,
+      17,
+      38
+    ],
+    "total_rating": 81.15684049108543,
+    "total_rating_count": 619
+  },
+  {
+    "id": 120176,
+    "first_release_date": 1561507200,
+    "game_modes": [
+      1,
+      2
+    ],
+    "genres": [
+      15,
+      16,
+      24,
+      35
+    ],
+    "keywords": [
+      7481,
+      27510,
+      49331
+    ],
+    "name": "Teamfight Tactics",
+    "platforms": [
+      34,
+      6,
+      39,
+      14
+    ],
+    "player_perspectives": [
+      3
+    ],
+    "similar_games": [
+      13196,
+      119188,
+      26845,
+      32510,
+      7615,
+      119416,
+      102057,
+      26268,
+      36258,
+      15707
+    ],
+    "summary": "Teamfight Tactics is a round-based strategy game that pits you against seven opponents in a free-for-all race to build a powerful team that fights on your behalf. Your goal: Be the last person standing.",
+    "themes": [
+      17
+    ],
+    "total_rating": 82.32837664400533,
+    "total_rating_count": 126
+  },
+  {
+    "id": 125174,
+    "first_release_date": 1691625600,
+    "game_modes": [
+      2,
+      3
+    ],
+    "genres": [
+      5
+    ],
+    "keywords": [
+      546,
+      1332,
+      5730
+    ],
+    "name": "Overwatch",
+    "platforms": [
+      169,
+      48,
+      508,
+      6,
+      167,
+      49,
+      130
+    ],
+    "player_perspectives": [
+      1,
+      2
+    ],
+    "similar_games": [
+      55038,
+      105269,
+      68286,
+      107318,
+      103301,
+      113362,
+      68287,
+      306,
+      95340,
+      103292
+    ],
+    "summary": "Overwatch is a free-to-play, team-based action game set in the optimistic future, where every match is the ultimate 5v5 battlefield brawl. Play as a time-jumping freedom fighter, a beat-dropping battlefield DJ, or one of over 30 other unique heroes as you battle it out around the globe.",
+    "themes": [
+      1,
+      18
+    ],
+    "total_rating": 76.06639682861645,
+    "total_rating_count": 406
+  },
+  {
     "id": 125764,
     "first_release_date": 1623369600,
     "game_modes": [
@@ -42,6 +1195,334 @@
     "total_rating_count": 71
   },
   {
+    "id": 132181,
+    "first_release_date": 1679616000,
+    "game_modes": [
+      1
+    ],
+    "genres": [
+      5,
+      9,
+      31
+    ],
+    "keywords": [
+      5,
+      72,
+      131,
+      223,
+      283,
+      606,
+      840,
+      1308,
+      1697,
+      1836,
+      1971,
+      2489,
+      2653,
+      3257,
+      4397,
+      4614,
+      6246,
+      24039,
+      42787,
+      44753
+    ],
+    "name": "Resident Evil 4",
+    "platforms": [
+      169,
+      48,
+      6,
+      39,
+      167,
+      14
+    ],
+    "player_perspectives": [
+      2
+    ],
+    "similar_games": [
+      114455,
+      19817,
+      18225,
+      105049,
+      18020,
+      25646,
+      103329,
+      37016,
+      28552,
+      56033
+    ],
+    "storyline": "Set six years after the events of Resident Evil 2, an older and significantly toughened Leon S. Kennedy has been shaped by his experiences of enduring the disaster that wiped Raccoon City off the map and events beyond. Now reporting directly to the President of the United States of America, Leon is given a new assignment: To locate and rescue the President\u2019s kidnapped daughter. Tracking her location to a secluded village in the European countryside, Leon prepares to take his first steps into another nightmare that reaches far past reason.",
+    "summary": "Resident Evil 4 is a remake of the 2005 original Resident Evil 4 reimagined for 2023 to bring state-of-the-art survival horror. Resident Evil 4 preserves the essence of the original game, while introducing modernized gameplay, a reimagined storyline,\nand vividly detailed graphics to make this the latest survival horror game where life and death, terror and catharsis intersect.",
+    "themes": [
+      1,
+      19,
+      43
+    ],
+    "total_rating": 92.50467966072259,
+    "total_rating_count": 611
+  },
+  {
+    "id": 135915,
+    "first_release_date": 1605139200,
+    "game_modes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "genres": [
+      13,
+      15,
+      32
+    ],
+    "keywords": [
+      101,
+      758,
+      994,
+      49437
+    ],
+    "name": "Overcooked! All You Can Eat",
+    "platforms": [
+      170,
+      169,
+      48,
+      6,
+      167,
+      49,
+      130
+    ],
+    "player_perspectives": [
+      3
+    ],
+    "similar_games": [
+      31515,
+      29173,
+      55590,
+      17519,
+      38967,
+      19083,
+      36346,
+      65827,
+      11588,
+      18623
+    ],
+    "storyline": "The Peckish have risen again and it\u2019s your job to satisfy their hunger, are you ready to save the world again? Overcooked! All You Can Eat is a chaotic cooking game where players need to work together (or alone) to serve as many dishes as they can before the timer runs out. Travel through the land cooking up a variety of recipes in evolving and dynamic kitchens.",
+    "summary": "Hold onto your chef hats and prepare your appetite for an XXL portion of Overcooked magic! Overcooked, Overcooked 2 and every morsel of additional content released for both games are being blended together and remastered from the ground up in Overcooked! All You Can Eat.",
+    "themes": [
+      27,
+      35,
+      40
+    ],
+    "total_rating": 83.39410901997263,
+    "total_rating_count": 40
+  },
+  {
+    "id": 136977,
+    "first_release_date": 1659571200,
+    "game_modes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "genres": [
+      4,
+      25,
+      32,
+      33
+    ],
+    "keywords": [
+      1060,
+      1061,
+      1884,
+      2760,
+      3138
+    ],
+    "name": "GigaBash",
+    "platforms": [
+      169,
+      48,
+      6,
+      167,
+      49,
+      130
+    ],
+    "player_perspectives": [
+      3
+    ],
+    "similar_games": [
+      106987,
+      96217,
+      54775,
+      119207,
+      96452,
+      103369,
+      27419,
+      120623,
+      110503,
+      43367
+    ],
+    "storyline": "After centuries spent slumbering in the bowels of the earth, the primordial beasts known as Titans have awoken. Now they must battle humanity - and one another - for total world dominance.\n\nGigaBash combines chaos and creativity with the jaw-dropping scale of the classic kaiju movies. Play as either a rampaging Titan or a Titan-hunting mecha; summon lightning from the heavens, use a radio tower as a baton, or roll a whole district (and your enemies) into a single massive snowball. Wreak enough havoc and you'll evolve into your final form, the terrifyingly titanic S-Class.",
+    "summary": "GigaBash is a 4 player arena brawler, play from a colorful cast of characters inspired by classic monster tropes, each with their own unique skillset. Rampage around the world in familiar battlegrounds, such as cities & jungles, each with a unique mechanic designed. Transform into an S-class Titan for an epic comeback, or dominate your foes in style with your Ultimate. The game emphasizes on accessibility & pure fun, seeking to unite players on the couch for a casual bash or a competitive brawl.\nAbout th",
+    "themes": [
+      1,
+      17,
+      35,
+      40
+    ],
+    "total_rating": 69.65253490028665,
+    "total_rating_count": 7
+  },
+  {
+    "id": 164287,
+    "first_release_date": 1631750400,
+    "game_modes": [
+      1
+    ],
+    "genres": [
+      15,
+      31,
+      32
+    ],
+    "name": "Erannorth Chronicles",
+    "platforms": [
+      6
+    ],
+    "similar_games": [
+      113402,
+      79134,
+      109339,
+      113837,
+      65827,
+      25311,
+      35994,
+      111130,
+      28182,
+      36269
+    ],
+    "summary": "Erannorth Chronicles is an old-school sandbox RPG/Card Game with focus in Deck-Building freedom and Character Customization."
+  },
+  {
+    "id": 168728,
+    "first_release_date": 1606867200,
+    "game_modes": [
+      1,
+      2
+    ],
+    "genres": [
+      4
+    ],
+    "name": "SoulCalibur VI: Hwang",
+    "platforms": [
+      48,
+      6,
+      49
+    ],
+    "similar_games": [
+      89550,
+      103269,
+      109277,
+      76852,
+      113895,
+      101608,
+      100800,
+      114145,
+      57296,
+      103288
+    ],
+    "summary": "Celebrate 20 years of SOULCALIBUR with an all new playable character: Hwang!",
+    "themes": [
+      1
+    ]
+  },
+  {
+    "id": 198560,
+    "first_release_date": 1666137600,
+    "game_modes": [
+      1,
+      2,
+      3
+    ],
+    "genres": [
+      9,
+      15,
+      32
+    ],
+    "name": "The Jackbox Party Pack 9",
+    "platforms": [
+      132,
+      169,
+      48,
+      3,
+      34,
+      6,
+      39,
+      167,
+      14,
+      49,
+      130
+    ],
+    "player_perspectives": [
+      5
+    ],
+    "similar_games": [
+      65827,
+      19404,
+      36269,
+      31515,
+      121518,
+      18623,
+      111043,
+      27266,
+      51577,
+      26223
+    ],
+    "summary": "Save your next party! 5 new games in 1 party pack: the trivia bluff-off Fibbage 4, the team test Quixort, the joke auction Junktopia, the silly guessfest Nonsensory and the reality TV game Roomerang.",
+    "themes": [
+      40
+    ],
+    "total_rating": 75.19774453911285,
+    "total_rating_count": 13
+  },
+  {
+    "id": 226601,
+    "first_release_date": 1736380800,
+    "game_modes": [
+      1
+    ],
+    "genres": [
+      12,
+      15,
+      24,
+      31,
+      32
+    ],
+    "keywords": [
+      416,
+      36130
+    ],
+    "name": "The Last Flame",
+    "platforms": [
+      6
+    ],
+    "similar_games": [
+      19404,
+      106987,
+      96217,
+      113402,
+      13196,
+      109339,
+      25311,
+      35994,
+      26845,
+      22387
+    ],
+    "summary": "Recruit special heroes, fight deadly encounters, loot and craft powerful gear, discover and create unique synergetic builds! The Last Flame is an endless roguelike auto-battler in which you guide a righteous party of heroes through many challenges.",
+    "themes": [
+      17
+    ]
+  },
+  {
     "id": 242408,
     "first_release_date": 1695772800,
     "game_modes": [
@@ -79,6 +1560,58 @@
     ],
     "total_rating": 67.54534431555054,
     "total_rating_count": 322
+  },
+  {
+    "id": 243747,
+    "first_release_date": 1683244800,
+    "game_modes": [
+      1,
+      2
+    ],
+    "genres": [
+      4,
+      32,
+      33
+    ],
+    "keywords": [
+      78,
+      546,
+      894,
+      1780,
+      1884,
+      2004,
+      3552,
+      24124,
+      27216,
+      29667,
+      29669
+    ],
+    "name": "Idol Showdown",
+    "platforms": [
+      6
+    ],
+    "player_perspectives": [
+      4
+    ],
+    "similar_games": [
+      24426,
+      36198,
+      96217,
+      106987,
+      103369,
+      113360,
+      110503,
+      56033,
+      28070,
+      43367
+    ],
+    "summary": "Idol Showdown is the definitive fan-made hololive fighting game experience, powered by rollback netcode. Engage in exciting duels as your favorite H=hololive talent and prove once and for all who the strongest idol is using the game\u2019s easy-to-learn controls.\n\nPick up on this game\u2019s easy-to-learn control scheme in no time to get straight into playing. Even hololive fans who are inexperienced with traditional fighting games can have fun!\n\nBesto Games has been hard at work developing the game\u2019s online rollback netcode to make the online experience as smooth as we can.\n\nExplore the vast world of hololive from our roster of iconic hololive talents, with moves inspired by their most memorable moments and personality traits. Fight across the virtual world in lovingly recreated hololive locations. Jam out to remixes of your favorite hololive original songs while raising idol hell.\n\nhololive talents are re-imagined as core fighting game archetypes with a unique twist. Bring chaos in the battlefield with flashy attacks and high-octane action.",
+    "themes": [
+      1,
+      17
+    ],
+    "total_rating": 66.2296673690572,
+    "total_rating_count": 8
   },
   {
     "id": 294041,
@@ -127,6 +1660,270 @@
       1
     ],
     "total_rating": 77.280819219683,
-    "total_rating_count": 323
+    "total_rating_count": 324
+  },
+  {
+    "id": 306148,
+    "first_release_date": 1729123200,
+    "game_modes": [
+      1,
+      2,
+      3
+    ],
+    "genres": [
+      35
+    ],
+    "keywords": [
+      1931,
+      26965,
+      39019,
+      39032
+    ],
+    "name": "Super Mario Party Jamboree",
+    "platforms": [
+      130
+    ],
+    "player_perspectives": [
+      3
+    ],
+    "similar_games": [
+      119156,
+      77498,
+      103339,
+      88938,
+      19083,
+      278826,
+      23651,
+      116992,
+      19404,
+      49414
+    ],
+    "summary": "Get ready for the biggest party yet in Super Mario Party Jamboree for Nintendo Switch. From running through merry-go-rounds to motion-control minigolf, this jamboree is jam-packed with over 110 minigames \u2013 the most of any Mario Party game to date!\n\nWith seven boards in all, you can go with the flow in Goomba Lagoon, search for stars in Rainbow Galleria, revisit the classics of Western Land and Mario\u2019s Rainbow Castle from past titles and more.\n\nRace across the party board in Koopathlon, a series-first 20-player online competition to see who can rack up the highest scores in minigames like the fast-paced Lane Change. The higher your score in each round, the faster you\u2019ll get to the goal. Koopathlon is just one of a slew of additional modes \u2013 there\u2019s something for every kind of Mario Party player to enjoy!",
+    "themes": [
+      17,
+      40
+    ],
+    "total_rating": 82.87844645740867,
+    "total_rating_count": 26
+  },
+  {
+    "id": 314246,
+    "first_release_date": 1757548800,
+    "game_modes": [
+      1,
+      2,
+      3
+    ],
+    "genres": [
+      5,
+      12,
+      31
+    ],
+    "keywords": [
+      4004,
+      36805
+    ],
+    "name": "Borderlands 4",
+    "platforms": [
+      169,
+      508,
+      6,
+      167
+    ],
+    "player_perspectives": [
+      1
+    ],
+    "similar_games": [
+      105269,
+      55038,
+      107318,
+      19164,
+      25311,
+      36950,
+      103301,
+      76877,
+      106987,
+      47823
+    ],
+    "summary": "See if you have what it takes to go down in history as a legendary Vault Hunter as you search for secret alien treasure, blasting everything in sight.",
+    "themes": [
+      1,
+      18
+    ],
+    "total_rating": 82.91375923322931,
+    "total_rating_count": 54
+  },
+  {
+    "id": 330884,
+    "game_modes": [
+      2
+    ],
+    "genres": [
+      15,
+      35
+    ],
+    "keywords": [
+      380
+    ],
+    "name": "Magic Chess: Go Go",
+    "platforms": [
+      34,
+      39
+    ],
+    "player_perspectives": [
+      3
+    ],
+    "similar_games": [
+      19404,
+      32510,
+      119156,
+      13196,
+      56967,
+      7615,
+      113201,
+      119188,
+      111187,
+      78165
+    ],
+    "summary": "Welcome to Magic Chess: Go Go, the ultimate strategy game combining MLBB heroes with fresh and casual gameplay. It's not about fast mechanics, but about wisdom and a touch of luck! Play anywhere, anytime, and have fun with friends!",
+    "themes": [
+      17
+    ]
+  },
+  {
+    "id": 331608,
+    "first_release_date": 1755734400,
+    "game_modes": [
+      1
+    ],
+    "genres": [
+      4,
+      15,
+      16,
+      32,
+      33
+    ],
+    "keywords": [
+      416,
+      2489,
+      27510,
+      40897
+    ],
+    "name": "Knightica",
+    "platforms": [
+      169,
+      48,
+      6,
+      167,
+      49,
+      130
+    ],
+    "player_perspectives": [
+      3
+    ],
+    "similar_games": [
+      28182,
+      19404,
+      106987,
+      14394,
+      96217,
+      103369,
+      9472,
+      36553,
+      119156,
+      13196
+    ],
+    "summary": "Recruit powerful units, place them strategically and find the best synergies in this Roguelike Autobattler! Knightica lets you guide a warband through many challenges to free the Kingdoms. Discover optimal combinations, weave powerful enchants, face dangerous monsters and lead your army to victory!",
+    "themes": [
+      1,
+      17
+    ]
+  },
+  {
+    "id": 339698,
+    "first_release_date": 1615248000,
+    "game_modes": [
+      1
+    ],
+    "genres": [
+      31
+    ],
+    "keywords": [
+      1617,
+      2004,
+      27117
+    ],
+    "name": "Dead By DayLight",
+    "platforms": [
+      33
+    ],
+    "player_perspectives": [
+      3
+    ],
+    "similar_games": [
+      111130,
+      55282,
+      13189,
+      27266,
+      25646,
+      25222,
+      370515,
+      87514,
+      366102,
+      18011
+    ],
+    "themes": [
+      19
+    ]
+  },
+  {
+    "id": 341687,
+    "first_release_date": 1752710400,
+    "game_modes": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "genres": [
+      12,
+      31
+    ],
+    "keywords": [
+      988,
+      2392,
+      24336,
+      39201
+    ],
+    "name": "Blue Protocol: Star Resonance",
+    "platforms": [
+      34,
+      6,
+      39
+    ],
+    "player_perspectives": [
+      2
+    ],
+    "similar_games": [
+      81249,
+      19164,
+      106987,
+      96217,
+      115653,
+      55038,
+      17548,
+      55199,
+      103168,
+      113360
+    ],
+    "storyline": "In the fantasy realm of Regnus, the once-stable cycle of star-essence that sustains all life has fractured, unleashing rampant disasters and environmental decay across the land. The supreme deity race abandoned their polluted world, leaving mortals to shoulder the burden of survival and restoration. Players awaken as rare Resonators, gifted with the unique ability to attune to, and answer the call to gather scattered star-essence fragments, forge alliances, and uncover the ancient secrets necessary to repair the cosmic cycle.\n\nTheir journey carries them through lush forests, scorching deserts, crystalline ruins, and even toward the legendary Sky City, as they tackle dungeons such as Rocksong Temple and Shattered Sand Sea to activate star-sigil mechanisms and reclaim lost fragments. Along the way, they clash with a shadowy Dark Cult intent on resurrecting a fallen god to reshape Regnus under a new, oppressive order. The saga culminates at the Void Gate, where all Resonators must unite their powers to confront the Abyssal King, reignite the central star-essence core, and restore cosmic harmony.",
+    "summary": "Blue Protocol: Star Resonance expands the Blue Protocol universe with a vibrant MMORPG experience. Create your own hero, team up for strategic raids, or simply relax and have fun with friends fishing, crafting, and endless exploration. Adventure awaits!",
+    "themes": [
+      1,
+      17,
+      38
+    ],
+    "total_rating": 77.27770727240598,
+    "total_rating_count": 23
   }
 ]
