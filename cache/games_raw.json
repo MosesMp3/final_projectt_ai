@@ -1,0 +1,132 @@
+[
+  {
+    "id": 125764,
+    "first_release_date": 1623369600,
+    "game_modes": [
+      1,
+      2
+    ],
+    "genres": [
+      4
+    ],
+    "name": "Guilty Gear: Strive",
+    "platforms": [
+      52,
+      169,
+      48,
+      6,
+      167,
+      49
+    ],
+    "player_perspectives": [
+      4
+    ],
+    "similar_games": [
+      89550,
+      103269,
+      109277,
+      76852,
+      113895,
+      101608,
+      100800,
+      114145,
+      57296,
+      103288
+    ],
+    "storyline": "After defeating the threat known as the Universal Will, Sol Badguy enjoyed a brief moment of peace...\nUntil he heard the shocking news.\nAsuka R. Kreutz, known as \"That Man\" who left his mark as the worst criminal in all of history by creating Gears and initiating the Crusades, surrendered to the U.S. government.\nThe man who turned him into a Gear... while Sol now sought revenge on him, he was once a close friend.\nTrying to guess Asuka's true intentions, Sol stood up with his weapon in hand.\n\n...The time had come at last to settle his fate with Asuka R. Kreutz!",
+    "summary": "Discover the Smell of the Game with Guilty Gear: Strive! Immerse yourself in new gameplay mechanics designed to be simple and welcoming for fighting game newcomers, yet deep and creative for veterans. Ride the Fire into a heavy metal inspired alternate future full of over-the-top action, style and fun!",
+    "themes": [
+      1
+    ],
+    "total_rating": 81.78278544856396,
+    "total_rating_count": 71
+  },
+  {
+    "id": 242408,
+    "first_release_date": 1695772800,
+    "game_modes": [
+      1,
+      2
+    ],
+    "genres": [
+      5,
+      24
+    ],
+    "name": "Counter-Strike 2",
+    "platforms": [
+      3,
+      6
+    ],
+    "player_perspectives": [
+      1
+    ],
+    "similar_games": [
+      38030,
+      119177,
+      106805,
+      19549,
+      83727,
+      102868,
+      8422,
+      64311,
+      95340,
+      10964
+    ],
+    "summary": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.\n\nA free upgrade to CS:GO, Counter-Strike 2 marks the largest technical leap in Counter-Strike\u2019s history. Built on the Source 2 engine, Counter-Strike 2 is modernized with realistic physically-based rendering, state of the art networking, and upgraded Community Workshop tools.",
+    "themes": [
+      1,
+      39
+    ],
+    "total_rating": 67.54534431555054,
+    "total_rating_count": 322
+  },
+  {
+    "id": 294041,
+    "first_release_date": 1733443200,
+    "game_modes": [
+      2,
+      3
+    ],
+    "genres": [
+      5
+    ],
+    "keywords": [
+      546,
+      668,
+      2173,
+      2385,
+      2387,
+      45434
+    ],
+    "name": "Marvel Rivals",
+    "platforms": [
+      169,
+      48,
+      508,
+      6,
+      167
+    ],
+    "player_perspectives": [
+      2
+    ],
+    "similar_games": [
+      28751,
+      113362,
+      102868,
+      103328,
+      95340,
+      105482,
+      119177,
+      19164,
+      55038,
+      106805
+    ],
+    "storyline": "The merciless clash between tyrannical dictator Doctor Doom and his future counterpart from the year 2099 has forced countless universes to collide in the Timestream Entanglement, creating new worlds and crises unknown.\n\nNow, Super Heroes and Villains from across the multiverse must fight together and against one another as disparate groups each seek to best both Dooms before one achieves domination of these realities. Familiar faces become newfound foes while former enemies become the greatest of allies in Marvel Rivals!",
+    "summary": "Marvel Rivals is a super hero team-based PvP shooter developed by NetEase Games! Assemble an all-star Marvel squad, devise countless strategies by combining powers to form unique Team-Up skills and fight in destructible, ever-changing battlefields across the continually evolving Marvel universe!",
+    "themes": [
+      1
+    ],
+    "total_rating": 77.280819219683,
+    "total_rating_count": 323
+  }
+]

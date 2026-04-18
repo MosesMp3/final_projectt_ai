@@ -1,7 +1,7 @@
 import requests, time
 import os
 from dotenv import load_dotenv
-
+import json
 
 load_dotenv()
 
@@ -49,7 +49,21 @@ def pull_games_by_id(game_ids, headers):
     return resp.json()
 
 
-games = [125764, 242408, 294041]
+ids = []
+with open("games.txt") as f:
+    for line in f:
+        line = line.strip()
+        if not line or line.startswith("#"):  # skip blanks and comments
+            continue
+        game_id, name = line.split(",", 1)
+        ids.append(int(game_id.strip()))
 
-game_data = pull_games_by_id(games, headers)
+
+game_data = pull_games_by_id(ids, headers)
 print(game_data)
+
+os.makedirs("cache", exist_ok=True)
+with open("cache/games_raw.json", "w") as f:
+    json.dump(game_data, f, indent=2)
+
+print("SAVED")

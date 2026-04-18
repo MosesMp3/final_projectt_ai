@@ -1,0 +1,6 @@
+125764, Guilty Gear Strive
+242408, Counter-Strike 2 
+294041, Marvel Rivals
+
+
+#you can also add notes to format genre
