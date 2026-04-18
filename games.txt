@@ -11,7 +11,7 @@
 105049, Remnants: From the Ashes
 
 #Tactical Shooter
-242408, Counter-Strike 2 
+242408, Counter-Strike 2
 
 #Social Simulation
 109462, Animal Crossing
@@ -24,6 +24,7 @@
 #MOBAs
 115, League of Legends
 115078, Predecessor
+301298, Deadlock
 
 #Auto Battler
 120176, Teamfight Tactics
@@ -39,7 +40,7 @@
 119171, Baldur's gate 3
 
 #Gacha
-119277, Genshin Impact - ARPG (Action Role Playing?)
+119277, Genshin Impact (ARPG)
 
 #MMORPG
 123, World of Warcraft
@@ -55,10 +56,17 @@
 306148, Super Mario Party Jamboree
 19083, Drawful 2
 198560, Jackbox Party Pack 9
+111469, Among Us
 
 #Survival Horror
 132181, Resident Evil 4
 111130, Apsulov: End of Gods
 
 #Survival Horror Multiplayer
-339698, Dead By Daylight add notes to format genre
+339698, Dead By Daylight
+222341, Silent Hill 2
+
+#Farmer Sims
+17000, Stardew Valley
+
+#you can also add notes to format genre
