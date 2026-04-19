@@ -1,5 +1,3 @@
-count: 31
-
 #Fighter Solo/Multi
 125764, Guilty Gear Strive
 168728, Soul Calibur IV
@@ -13,7 +11,7 @@ count: 31
 105049, Remnants: From the Ashes
 
 #Tactical Shooter
-242408, Counter-Strike 2 
+242408, Counter-Strike 2
 
 #Social Simulation
 109462, Animal Crossing
@@ -26,6 +24,7 @@ count: 31
 #MOBAs
 115, League of Legends
 115078, Predecessor
+301298, Deadlock
 
 #Auto Battler
 120176, Teamfight Tactics
@@ -41,7 +40,7 @@ count: 31
 119171, Baldur's gate 3
 
 #Gacha
-119277, Genshin Impact - ARPG (Action Role Playing?)
+119277, Genshin Impact (ARPG)
 
 #MMORPG
 123, World of Warcraft
@@ -57,6 +56,7 @@ count: 31
 306148, Super Mario Party Jamboree
 19083, Drawful 2
 198560, Jackbox Party Pack 9
+111469, Among Us
 
 #Survival Horror
 132181, Resident Evil 4
@@ -64,11 +64,9 @@ count: 31
 
 #Survival Horror Multiplayer
 339698, Dead By Daylight
+222341, Silent Hill 2
 
-#Action RPG
-347636, Code Vein
-279661, Monster Hunter Wilds
-115846, AI Limit
-250922, Rune Factory: Guardians of Azuma
+#Farmer Sims
+17000, Stardew Valley
 
 #you can also add notes to format genre
