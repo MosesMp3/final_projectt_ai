@@ -7,13 +7,14 @@ with open("cache/lookups.json") as d:
     lookups = json.load(d)
 print(len(games_raw))
 
-# have todo for each, will make into functions
-unique_mode_ids = set()
-for game in games_raw:
-    for mode_id in game.get("game_modes") or []:
-        unique_mode_ids.add(mode_id)
-game_modes_vocab = sorted(unique_mode_ids)
-game_modes_positions = {id_: i for i, id_ in enumerate(game_modes_vocab)}
+
+def build_positions(games, field_name):
+    unique_ids = set()
+    for game in games:
+        for id_ in game.get(field_name) or []:
+            unique_ids.add(id_)
+    sorted_ids = sorted(unique_ids)
+    return {id_: i for i, id_ in enumerate(sorted_ids)}
 
 
 def encode_field(game_field_values, vocab_positions):
@@ -24,9 +25,34 @@ def encode_field(game_field_values, vocab_positions):
     return vec
 
 
-test_game = games_raw[0]
-print(f"Testing game: {test_game['name']}")
-print(f"Its game_modes: {test_game.get('game_modes')}")
+fields = ["genres", "themes", "game_modes", "player_perspectives", "platforms"]
+positions = {field: build_positions(games_raw, field) for field in fields}
 
-encoded = encode_field(test_game.get("game_modes"), game_modes_positions)
-print(f"Encoded: {encoded}")
+
+for field, pos in positions.items():
+    print(f"{field}: {len(pos)} unique values")
+
+
+def encode_game(game, positions):
+    """Encode one game's categorical fields into a single concatenated vector."""
+    parts = []
+    for field in ["genres", "themes", "game_modes", "player_perspectives", "platforms"]:
+        parts.append(encode_field(game.get(field), positions[field]))
+    return sum(parts, [])  # flatten list of lists
+
+
+"""
+for game in games_raw:
+    encoded = encode_game(game, positions)
+    print(f"Feature length: {len(encoded)}")
+    print(f"Active features: {sum(encoded)}")
+    print(encoded)
+
+"""
+
+
+encoded = encode_game(games_raw[1], positions)
+print(f"name:{games_raw[1].get('name')}")
+print(f"Feature length: {len(encoded)}")
+print(f"Active features: {sum(encoded)}")
+print(encoded)
