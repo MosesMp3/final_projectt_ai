@@ -4,69 +4,128 @@
 243747, Idol Showdown
 57268, Punch Planet
 136977, Gigabash
+217590, Tekken 8
+126460, 2XKO
+191692, Street Fighter 6
+239392, Mortal Kombat 1
+90101, Super Smash Bros. Ultimate
+11613, BlazBlue: Central Fiction
 
 #Shooter Looter
 314246, Borderlands 4
 2903, Warframe
 105049, Remnants: From the Ashes
+25657, Destiny 2
+252485, John Carpenter’s Toxic Commando
+316979, Deadzone Rogue
+139672, ,Revita
+204444, Glitch Busters
+266177, Cave Digger 2
+7878, Unturned
+208476, The First Descendent
+43584, Road to Vostok
+
 
 #Tactical Shooter
-242408, Counter-Strike 2
+242408, Counter-Strike 2 
 
 #Social Simulation
 109462, Animal Crossing
 3212, The Sims 4
+198506, Disney Dreamlight Valley
+9927, Persona 5
+26602, Metaphor: ReFantazio
+337036, Tomodachi Life: Living the Dream
+325609, Dispatch
+1871, The Walking Dead
+2993, The Wolf Among Us
+26472, Disco Elysium
+
 
 #Hero Shooters
 294041, Marvel Rivals
 125174, Overwatch
+891, Team Fortress 2
+11544, Paladins
+250632, Concord
 
 #MOBAs
 115, League of Legends
 115078, Predecessor
-301298, Deadlock
 
 #Auto Battler
 120176, Teamfight Tactics
 330884, Magic Chess: Go Go
+144274, The Bazaar
+168716, Your Chronicle
+253659, Backpack Battles
+258933, Unnamed Space Idle
+296314, Idle Hero TD
+146641, Super Auto Pets
 
 #CCGs (Collectible Card Game) + TBS (Turn Based Strategy)
 1279, Hearthstone
 54538, Magic the Gathering Arena
+202279, Marvel Snap
+305262, Once Upon a Galaxy
+208307, Gwent
+159298, Yu Gi Oh: Masterduel
+124701, Legends of Runeterra
+26845, Fire Emblem: Three Houses
 
 #TBS (Turn Based Strategy) + Exploration
-7615, Might & Magic Heros VII
+7615, Might & Magic Heroes VII
 164287, Erannorth Chronicles
-119171, Baldur's gate 3
+119171, Baldur's Gate 3
+305152, Clair Obscur: Expedition 33
+165347, Marvel Midnight Suns
+115653, Pokémon Shield
+147189, Master of Magic
+10297, Fallen Enchantress
+329138, Endless Legend 2
+19404, Eador: Imperium
+11507, Master of Orion
+203259, Warhammer 40,000: Rogue Trader
+6774, Warlock II: The Exiled
+125692, Shadow Empire
+252647, Persona 3 Reload
+114283, Persona 5 Royal
 
 #Gacha
-119277, Genshin Impact (ARPG)
+119277, Genshin Impact - ARPG (Action Role Playing?)
 
 #MMORPG
 123, World of Warcraft
 341687, Blue Protocol
+1183, Guild Wars 2
+6292, BDO Black Desert Online
+26128, Lost Ark
+1081, The Elder Scrolls Online
+2584, Eve Online
+9804, MapleStory
 
 #Roguelike
 331608, Knightica
-28512, Risk of Rain 2
+28512, Risk of Rain 2 #co-op
 226601, The Last Flame
+296831, Slay the Spire 2 #co-op
+327405, Megabonk
+199116, Brotato
+217311, For the King II
 
 #Co-op // Party-Style
 135915, Overcooked! All You Can Eat
 306148, Super Mario Party Jamboree
 19083, Drawful 2
 198560, Jackbox Party Pack 9
-111469, Among Us
 
 #Survival Horror
 132181, Resident Evil 4
 111130, Apsulov: End of Gods
+8499, Five Nights at Freddy’s
+131931, Dead Space
+9254, Subnautica
+
 
 #Survival Horror Multiplayer
-339698, Dead By Daylight
-222341, Silent Hill 2
-
-#Farmer Sims
-17000, Stardew Valley
-
-#you can also add notes to format genre
+339698, Dead By Daylight add notes to format genre

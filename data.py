@@ -67,3 +67,22 @@ with open("cache/games_raw.json", "w") as f:
     json.dump(game_data, f, indent=2)
 
 print("SAVED")
+
+"""
+lookups = {}
+for endpoint in ["genres", "themes", "game_modes", "player_perspectives", "platforms"]:
+    resp = requests.post(
+        f"https://api.igdb.com/v4/{endpoint}",
+        headers=headers,
+        data="fields id, name; limit 500;",
+    )
+    lookups[endpoint] = {item["id"]: item["name"] for item in resp.json()}
+    print(f"{endpoint}: {len(lookups[endpoint])} entries")
+
+serializable = {
+    field: {str(k): v for k, v in m.items()} for field, m in lookups.items()
+}
+with open("cache/lookups.json", "w") as f:
+    json.dump(serializable, f, indent=2)
+
+"""
