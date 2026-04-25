@@ -12,19 +12,31 @@
 
 #Tactical Shooter
 242408, Counter-Strike 2
+9495, Squad
+28489, Ready or Not
+18088, Insurgency
+15536, Escape from Tarkov
+362063, Hell Let Loose: Vietnam
 
 #Social Simulation
 109462, Animal Crossing
 3212, The Sims 4
+17000, Stardew Valley
+198506, Disney Dreamlight Valley
 
 #Hero Shooters
 294041, Marvel Rivals
 125174, Overwatch
+891, Team Fortress 2
+11544, Paladins
 
 #MOBAs
 115, League of Legends
 115078, Predecessor
 301298, Deadlock
+141479, Genesis
+282566, Smite 2
+255078, Supervive
 
 #Auto Battler
 120176, Teamfight Tactics
@@ -38,18 +50,34 @@
 7615, Might & Magic Heros VII
 164287, Erannorth Chronicles
 119171, Baldur's gate 3
+305152, Clair Obscur: Expedition 33
+165347, Marvel Midnight Suns
 
 #Gacha
 119277, Genshin Impact (ARPG)
+194106, Limbus Company
+132648, CounterSide
+
+#Battle-Royale
+207939, Naraka Bladepoint
+1905, Fortnite
+114795, Apex Legends
+27789, PUBG Battlegrounds
+87622, Free Fire
 
 #MMORPG
 123, World of Warcraft
 341687, Blue Protocol
+1183, Guild Wars 2
+6292, BDO Black Desert Online
+26128, Lost Ark
+1081, The Elder Scrolls Online
 
 #Roguelike
 331608, Knightica
-28512, Risk of Rain 2
+28512, Risk of Rain 2 #co-op
 226601, The Last Flame
+296831, Slay the Spire 2 #co-op
 
 #Co-op // Party-Style
 135915, Overcooked! All You Can Eat
