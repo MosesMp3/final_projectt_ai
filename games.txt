@@ -30,7 +30,15 @@
 
 
 #Tactical Shooter
-242408, Counter-Strike 2 
+242408, Counter-Strike 2
+9495, Squad
+28489, Ready or Not
+18088, Insurgency
+15536, Escape from Tarkov
+362063, Hell Let Loose: Vietnam
+7360, Rainbow Six Siege
+250616, Helldivers 2
+185258, Arc Raiders
 
 #Social Simulation
 109462, Animal Crossing
@@ -55,6 +63,15 @@
 #MOBAs
 115, League of Legends
 115078, Predecessor
+301298, Deadlock
+141479, Genesis
+282566, Smite 2
+255078, Supervive
+2963, Dota 2
+135381, Pokemon Unite
+7313, Heroes of the Storm
+135842, Eternal Return
+
 
 #Auto Battler
 120176, Teamfight Tactics
@@ -119,7 +136,10 @@
 87622, Free Fire
 217815, Call of Duty: Warzone
 214417, The Finals
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0bab501e3a648dfc1e9675cb3151086c15285ab9
 
 #MMORPG
 123, World of Warcraft
@@ -159,7 +179,10 @@
 387070, Super Battle Golf
 105322, Pummel Party
 119313, Fall Guys
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0bab501e3a648dfc1e9675cb3151086c15285ab9
 
 #Survival Horror
 132181, Resident Evil 4
@@ -365,4 +388,3 @@
 122346, Soul Knight
 6166, Subway Surfers
 59746, The Battle Cats
-#you can also add notes to format genre

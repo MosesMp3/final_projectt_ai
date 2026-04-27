@@ -1,64 +1,34 @@
-import numpy as np
-from sklearn.neighbors import NearestNeighbors
+from encoding import load_games, load_rawg, encode_game, build_all_positions, find_game_by_id
 
+def recommend(game_id, games_raw, positions, rawg_data=None, top_n=5):
+    input_game = find_game_by_id(game_id, games_raw)
 
-def build_index(embeddings, n_neighbors=11):
-    nn_index = NearestNeighbors(n_neighbors=n_neighbors, metric="cosine")
-    nn_index.fit(embeddings)
-    return nn_index
+    if input_game is None:
+        return []
 
+    a = encode_game(input_game, positions, rawg_data)
 
-def recommend(game_id, nn_index, embeddings, game_ids, game_names, id_to_idx, k=10):
-    if game_id not in id_to_idx:
-        raise ValueError(f"Game ID {game_id} not in catalog")
+    scores = []
+    for current_game in games_raw:
+        if not current_game.get("genres") or not current_game.get("platforms"):
+            continue
 
-    idx = id_to_idx[game_id]
-    distances, indices = nn_index.kneighbors(
-        embeddings[idx : idx + 1],
-        n_neighbors=k + 1,
-    )
+        b = encode_game(current_game, positions, rawg_data)
 
-    results = []
-    for dist, i in zip(distances[0][1:], indices[0][1:]):
-        results.append(
-            {
-                "id": int(game_ids[i]),
-                "name": str(game_names[i]),
-                "similarity": float(1 - dist),
-            }
-        )
-    return results
+        dot = sum(x*y for x, y in zip(a, b))
+        mag_a = sum(x**2 for x in a) ** 0.5
+        mag_b = sum(x**2 for x in b) ** 0.5
 
+        if mag_a == 0 or mag_b == 0:
+            continue
 
-data = np.load("cache/embeddings.npz", allow_pickle=True)
-embeddings = data["embeddings"]
-game_ids = data["game_ids"]
-game_names = data["game_names"]
+        similarity = dot / (mag_a * mag_b)
+        scores.append((current_game, similarity))
 
-id_to_idx = {int(gid): i for i, gid in enumerate(game_ids)}
-nn_index = build_index(embeddings)
+    if not scores:
+        return []
 
-test_ids = [
-    125764,  # Guilty Gear Strive
-    119133,  # Elden Ring
-    14593,  # Hollow Knight
-    17000,  # Stardew Valley
-    125174,  # Overwatch
-    115,  # League of Legends
-    331608,  # Knightica (roguelike)
-    135915,  # Overcooked
-    132181,  # Resident Evil 4
-    119277,  # Genshin Impact
-    339698,  # dead by daylight
-]
+    scores = sorted(scores, key=lambda x: x[1], reverse=True)
+    scores = [s for s in scores if s[0]["id"] != game_id]
 
-for tid in test_ids:
-    if tid not in id_to_idx:
-        print(f"\n{tid}: not in catalog")
-        continue
-    name = game_names[id_to_idx[tid]]
-    print(f"\nSimilar to {name}:")
-    for rec in recommend(
-        tid, nn_index, embeddings, game_ids, game_names, id_to_idx, k=5
-    ):
-        print(f"  {rec['similarity']:.3f}  {rec['name']}")
+    return [(s[0]["name"], s[1]) for s in scores[:top_n]]
