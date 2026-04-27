@@ -8,11 +8,6 @@ load_dotenv()
 CLIENT_ID = os.environ["IGDB_CLIENT_ID"]
 CLIENT_SECRET = os.environ["IGDB_CLIENT_SECRET"]
 
-
-print(CLIENT_ID)
-print(CLIENT_SECRET)
-
-
 response = requests.post(
     "https://id.twitch.tv/oauth2/token",
     params={
@@ -22,20 +17,13 @@ response = requests.post(
     },
 )
 
-data = response.json()
-print(data)
-
-token = data["access_token"]
-
+token = response.json()["access_token"]
 
 headers = {
     "Client-ID": CLIENT_ID,
     "Authorization": f"Bearer {token}",
     "Accept": "application/json",
 }
-
-print(headers)
-
 
 def pull_games_by_id(game_ids, headers):
     fields = (
@@ -68,14 +56,12 @@ ids = []
 with open("games.txt") as f:
     for line in f:
         line = line.strip()
-        if not line or line.startswith("#"):  # skip blanks and comments
+        if not line or line.startswith("#"):
             continue
         game_id, name = line.split(",", 1)
         ids.append(int(game_id.strip()))
 
-
-game_data = pull_games_by_id(ids, headers)
-print(game_data)
+your_games = pull_games_by_id(ids, headers)
 
 bulk_games = []
 for offset in range(0, 5000, 500):
@@ -87,7 +73,7 @@ for offset in range(0, 5000, 500):
 
 all_ids_seen = set()
 combined = []
-for game in game_data + bulk_games:
+for game in your_games + bulk_games:
     if game["id"] not in all_ids_seen:
         all_ids_seen.add(game["id"])
         combined.append(game)
@@ -95,24 +81,3 @@ for game in game_data + bulk_games:
 os.makedirs("cache", exist_ok=True)
 with open("cache/games_raw.json", "w") as f:
     json.dump(combined, f, indent=2)
-
-print("SAVED")
-
-"""
-lookups = {}
-for endpoint in ["genres", "themes", "game_modes", "player_perspectives", "platforms"]:
-    resp = requests.post(
-        f"https://api.igdb.com/v4/{endpoint}",
-        headers=headers,
-        data="fields id, name; limit 500;",
-    )
-    lookups[endpoint] = {item["id"]: item["name"] for item in resp.json()}
-    print(f"{endpoint}: {len(lookups[endpoint])} entries")
-
-serializable = {
-    field: {str(k): v for k, v in m.items()} for field, m in lookups.items()
-}
-with open("cache/lookups.json", "w") as f:
-    json.dump(serializable, f, indent=2)
-
-"""
