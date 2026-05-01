@@ -79,6 +79,12 @@ def save_outputs(matrix, ids, names, similar_truth, out_dir="cache"):
     with open(f"{out_dir}/similar_truth.json", "w") as f:
         json.dump({str(k): v for k, v in similar_truth.items()}, f)
 
+def find_game_by_id(game_id, games):
+    for game in games:
+        if game["id"] == game_id:
+            return game
+    return None
+
 
 FIELDS = ["genres", "themes", "game_modes", "player_perspectives", "platforms"]
 

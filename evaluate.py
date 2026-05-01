@@ -29,7 +29,6 @@ def recall_at_k(embeddings, game_ids, truth, k=10):
     for gid in game_ids:
         gid = int(gid)
         true_similars = truth.get(gid, set())
-        # Only count truths that are also in the catalog
         relevant = true_similars & catalog_ids
         if not relevant:
             skipped += 1
@@ -85,7 +84,7 @@ def per_game_recall(embeddings, game_ids, game_names, truth, k=10):
 embeddings, game_ids, game_names, truth = load_eval_data()
 
 print("=" * 60)
-print("Recall@K evaluation")
+print("Recall@K evaluation (IGDB ground truth)")
 print("=" * 60)
 for k in [5, 10, 20]:
     result = recall_at_k(embeddings, game_ids, truth, k=k)
@@ -106,3 +105,36 @@ print("Worst-recalled games (where the model fails):")
 print("=" * 60)
 for r in per_game[-10:]:
     print(f"  {r['recall']:.2f}  {r['game']:<40} ({r['n_hits']}/{r['n_relevant']})")
+
+# ── RAWG evaluation ──
+import os
+rawg_truth_path = "cache/rawg_similar_truth.json"
+if os.path.exists(rawg_truth_path):
+    with open(rawg_truth_path) as f:
+        rawg_truth_raw = json.load(f)
+    rawg_truth = {int(k): set(v) for k, v in rawg_truth_raw.items()}
+
+    print("\n" + "=" * 60)
+    print("Recall@K evaluation (RAWG ground truth)")
+    print("=" * 60)
+    for k in [5, 10, 20]:
+        result = recall_at_k(embeddings, game_ids, rawg_truth, k=k)
+        print(
+            f"  Recall@{k:2d}: {result['recall_at_k']:.4f}  "
+            f"({result['n_evaluated']} evaluated, {result['n_skipped']} skipped)"
+        )
+
+    print("\n" + "=" * 60)
+    print("Top 10 best-recalled games (RAWG):")
+    print("=" * 60)
+    per_game_rawg = per_game_recall(embeddings, game_ids, game_names, rawg_truth, k=10)
+    for r in per_game_rawg[:10]:
+        print(f"  {r['recall']:.2f}  {r['game']:<40} ({r['n_hits']}/{r['n_relevant']})")
+
+    print("\n" + "=" * 60)
+    print("Worst-recalled games (RAWG):")
+    print("=" * 60)
+    for r in per_game_rawg[-10:]:
+        print(f"  {r['recall']:.2f}  {r['game']:<40} ({r['n_hits']}/{r['n_relevant']})")
+else:
+    print("\nRAWG truth not found — run rawg_match.py and rawg_similar.py first")
