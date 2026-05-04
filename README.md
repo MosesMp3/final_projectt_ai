@@ -27,3 +27,6 @@ ollama pull llama3.2
 # then in python
 import ollama
 
+# install flask
+pip install flask
+

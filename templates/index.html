@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Recommender</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #1a1a2e;
+            color: #eee;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 700px;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 8px;
+            color: #e94560;
+        }
+
+        p.subtitle {
+            text-align: center;
+            color: #aaa;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: #16213e;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 6px;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 10px 14px;
+            border-radius: 8px;
+            border: 1px solid #333;
+            background: #0f3460;
+            color: #eee;
+            font-size: 1rem;
+            margin-bottom: 16px;
+        }
+
+        .checkbox-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+
+        .checkbox-row input {
+            width: auto;
+            margin: 0;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #e94560;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #c73652;
+        }
+
+        .results {
+            display: none;
+        }
+
+        .rec-item {
+            background: #0f3460;
+            border-radius: 8px;
+            padding: 14px 18px;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .rec-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .rec-name {
+            font-weight: bold;
+        }
+
+        .rec-score {
+            font-size: 0.85rem;
+            color: #aaa;
+        }
+
+        .rec-label {
+            font-size: 0.8rem;
+            padding: 4px 10px;
+            border-radius: 20px;
+            background: #e94560;
+            color: white;
+            white-space: nowrap;
+        }
+
+        .rec-explanation {
+            font-size: 0.85rem;
+            color: #aaa;
+            line-height: 1.5;
+            border-top: 1px solid #1a3a6e;
+            padding-top: 8px;
+        }
+
+        .loading {
+            text-align: center;
+            color: #aaa;
+            padding: 20px;
+            display: none;
+        }
+
+        .error {
+            color: #e94560;
+            text-align: center;
+            padding: 10px;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Game Recommender</h1>
+        <p class="subtitle">Find your next favorite game</p>
+
+        <div class="card">
+            <label>Game you like</label>
+            <input type="text" id="gameInput" placeholder="e.g. Elden Ring" />
+
+            <label>Second game (optional)</label>
+            <input type="text" id="gameInput2" placeholder="e.g. League of Legends" />
+
+            <label>Traits you're looking for (optional)</label>
+            <input type="text" id="traitsInput" placeholder="e.g. multiplayer, open world, story-driven" />
+
+            <label>Number of recommendations</label>
+            <select id="kSelect">
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+            </select>
+
+            <div class="checkbox-row">
+                <input type="checkbox" id="useLLM" />
+                <label style="margin:0">Explain why these games were recommended (uses AI)</label>
+            </div>
+
+            <button onclick="getRecommendations()">Find Games</button>
+            <div class="error" id="errorMsg"></div>
+        </div>
+
+        <div class="loading" id="loading">Finding recommendations...</div>
+
+        <div class="results card" id="results">
+            <h2 id="resultsTitle" style="margin-bottom:16px"></h2>
+            <div id="recList"></div>
+        </div>
+    </div>
+
+    <script>
+        async function getRecommendations() {
+            const game = document.getElementById("gameInput").value.trim()
+            const traits = document.getElementById("traitsInput").value.trim()
+            const k = document.getElementById("kSelect").value
+            const useLLM = document.getElementById("useLLM").checked
+
+            if (!game) return
+
+            document.getElementById("loading").style.display = "block"
+            document.getElementById("results").style.display = "none"
+            document.getElementById("errorMsg").style.display = "none"
+
+            try {
+                const resp = await fetch("/recommend", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        game,
+                        game2: document.getElementById("gameInput2").value.trim(),
+                        traits,
+                        k,
+                        use_llm: useLLM
+                    })
+                })
+
+                const data = await resp.json()
+                document.getElementById("loading").style.display = "none"
+
+                if (data.error) {
+                    document.getElementById("errorMsg").textContent = data.error
+                    document.getElementById("errorMsg").style.display = "block"
+                    return
+                }
+
+                document.getElementById("resultsTitle").textContent =
+                    `Because you liked ${data.input_game}:`
+
+                const recList = document.getElementById("recList")
+                recList.innerHTML = ""
+
+                // parse explanation into per-game chunks
+                let explanations = {}
+                if (data.explanation) {
+                    const lines = data.explanation.split('\n').filter(l => l.trim())
+                    data.recommendations.forEach(r => {
+                        const match = lines.find(l => l.toLowerCase().includes(r.name.toLowerCase()))
+                        if (match) explanations[r.name] = match.replace(/^[-•\d.]\s*/, '').trim()
+                    })
+                }
+
+                data.recommendations.forEach(r => {
+                    const exp = explanations[r.name] || ''
+                    recList.innerHTML += `
+                        <div class="rec-item">
+                            <div class="rec-header">
+                                <div>
+                                    <div class="rec-name">${r.name}</div>
+                                    <div class="rec-score">Similarity: ${r.similarity}</div>
+                                </div>
+                                <div class="rec-label">${r.label}</div>
+                            </div>
+                            ${exp ? `<div class="rec-explanation">${exp}</div>` : ''}
+                        </div>`
+                })
+
+                document.getElementById("results").style.display = "block"
+
+            } catch (err) {
+                document.getElementById("loading").style.display = "none"
+                document.getElementById("errorMsg").textContent = "Something went wrong. Try again."
+                document.getElementById("errorMsg").style.display = "block"
+            }
+        }
+
+        document.getElementById("gameInput").addEventListener("keypress", e => {
+            if (e.key === "Enter") getRecommendations()
+        })
+    </script>
+</body>
+
+</html>
